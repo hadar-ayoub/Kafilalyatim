@@ -5,6 +5,8 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  background: url("../img/bg.jpg");
+
 }
 
 
@@ -30,8 +32,13 @@ body {
   padding-left: 15px;
 }
 .navbar-wrapper .navbar .container {
+  float: right;
   width: auto;
 }
+.navbar li{
+  float: right;
+}
+
 
 
 /* CUSTOMIZE THE CAROUSEL
