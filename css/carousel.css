@@ -6,6 +6,8 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
   background: url("../img/bg.jpg");
+  text-align: right;
+
 
 }
 
@@ -15,6 +17,7 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
+  font-size: 1.3em;
 }
 
 /* Flip around the padding for proper display in narrow viewports */

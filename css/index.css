@@ -1,11 +1,16 @@
 .page{
 	background-color: rgba(255,255,255,0.8);
+	border-left: 3px solid rgba(100,100,100,0.6);
+	border-right: 3px solid rgba(100,100,100,0.6);
 }
 
 #logo img{
 	width: 100px;
 	height: 100px;
-	margin: 0 15px;
+	margin: 0 70px;
+}
+#followus{
+	border: none;
 }
 #followus img{
 	width: 38px;
@@ -19,6 +24,24 @@
 	float: right;
 	font-size: 1.2em;
 	font-weight: bold;
+}
+#costumprayer{
+}
+.panel{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.panel-default .panel-heading{
+	background-color: rgb(233,242,247);
+}
+.panel-default h3{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#slide{
+	  margin-top: -10px;
+
 }
 section h3{
 	text-align: right;
