@@ -15,7 +15,6 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  z-index: 20;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -26,10 +25,15 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+    margin-top: 40px;
+
 }
 .navbar-wrapper .navbar .container {
   float: right;
   width: auto;
+}
+.navbar ul{
+  float: right;
 }
 .navbar li{
   float: right;
