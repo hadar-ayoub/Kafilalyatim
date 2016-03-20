@@ -1,0 +1,16 @@
+.adopt-panel{
+	direction:rtl;
+	font-size: 1.3em;
+	font-weight: lighter;
+}
+#types-adoption .ol-title{
+	text-decoration: underline;	
+	font-size: 1.3em;
+}
+#types-adoption ul li{
+	list-style: square; 
+}
+#methodes-adoption,#condtions-orphelin,#documents-orphelin{
+	font-size: 1.4em;
+	font-weight: lighter;
+}
